@@ -18,3 +18,11 @@ class abstraksiklas {
     }
 };
 
+int main() {
+    abstraksiklas ak;
+    ak.setXY("yogyakarta", "kampus");
+    ak.display();
+
+    return 0;
+}
+
